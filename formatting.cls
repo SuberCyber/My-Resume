@@ -9,7 +9,7 @@
 \LoadClass{article}
 
 % Package Imports
-\usepackage[hmargin=1.25cm, vmargin=1.2cm]{geometry}
+\usepackage[hmargin=1.25cm, vmargin=0.8cm]{geometry}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{hyperref}
 \usepackage{titlesec}
@@ -17,6 +17,7 @@
 \usepackage[UKenglish]{babel}
 \usepackage[UKenglish]{isodate}
 \usepackage{fontspec,xltxtra,xunicode}
+\usepackage{multicol}
 
 
 
@@ -25,11 +26,6 @@
 \definecolor{emph}{HTML}{3399ff}
 \definecolor{quiet}{HTML}{6b7584}
 \definecolor{bold}{HTML}{000000}
-
-
-% Set main fonts
-\defaultfontfeatures{Mapping=tex-text}
-\setmainfont[Color=primary, Path = fonts/lato/]{Lato-Lig}
 
 % Name command
 \newcommand{\namesection}[3]{
@@ -54,7 +50,7 @@
 \scshape\fontspec[Path = fonts/lato/]{Lato-Lig}\fontsize{16pt}{24pt}\selectfont \raggedright}{} {0em}{}
 
 % Section seperators command
-\newcommand{\sectionsep}[0]{\vspace{12pt}}
+\newcommand{\sectionsep}[0]{\vspace{8pt}}
 \newcommand{\smallgap}{\vskip5pt}
 
 % Bullet Lists with fewer gaps command
